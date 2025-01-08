@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 100%;
+    float: left;
+    border-bottom: 3px solid #d5cece;
+    padding: 20px 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.menu h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 16px 0px;
+    line-height: 1.2em;
+}
+.logo{
+    display: block;
+    text-align: right;
+}
+.logo img{
+    width: 12%;
+}
+/* header end */
+/* banner start */
+.avater{
+    width: 100%;
+    padding: 30px 0px;
+}
+.avater img{
+    width: 100%;
+}
+.login{
+    display: flex;
+}
+.login img{
+    width: 11%;
+    height: 60px;
+}
+.login h4{
+    font-size: 18px;
+    margin: 30px 10px;
+}
+.login p{
+    font-size: 14px;
+    margin: 6px 0px;
+}
+.banner-left h1{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin:18px 0px;
+}
+.banner-left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+.banner-left h6{
+    font-size: 14px;
+}
+.banner-right{
+    padding: 30px 0px 0px 206px;
+}
+.btn-primary{
+    padding: 18px 50px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: #6047ec;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    border: 6px solid rgb(3,136,238);
+}
+.inner-box{
+    background-color: #f3f3f3;
+    height: 1306px;
+    margin: 28px 0px;
+}
+.inner-box:hover{
+    cursor: pointer;
+    border: 3px solid rgb(3,136,238);
+}
+.inner-box h2{
+    font-size: 18px;
+    font-weight: 400;
+    transform: translate(55px, 20px);
+    margin: 0px 0px 40px;
+}
+.formcontrol{
+    padding: 24px 0px;
+    position: relative;
+}
+.formcontrol:hover{
+    cursor: pointer;
+    border: 3px solid rgb(3,136,238);
+}
+.formcontrol p{
+    font-size: 15px;
+    color: #000000bc;
+    transform: translate(35px, -14px);
+    margin: 3px 0px 0px 0px;
+}
+.bg01{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0px 23px 14px 22px;
+}
+/* banner end */
